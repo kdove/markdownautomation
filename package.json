@@ -1,0 +1,25 @@
+{
+  "name": "markdownautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdove/markdownautomation.git"
+  },
+  "author": "Kyle Dove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdove/markdownautomation/issues"
+  },
+  "homepage": "https://github.com/kdove/markdownautomation#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.4"
+  }
+}
