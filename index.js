@@ -85,7 +85,8 @@ inquirer
         let email = data2.data.email
         let profileImage = data2.data.avatar_url
         let website = data2.data.blog
-        const markdown = `## Description\n\n${q2}\n\n## table of contents\n\n\t* 1.01 Instalation \n\t* 1.02 Usage \n\t* 1.03 License \n\t* 1.04 Contributers \n\t* 1.05 Tests \n\t* 1.06 Questions \n\n\t##Profile Image${profileImage}\n\n\## Email me at:${email}\n\n\
+
+        const markdown = `## Description\n\n##${q2}\n\n##${q3}\n\n##TABLE OF CONTENTS\n\n\t * 1.01 Instalation \n\n\t * 1.02 Usage \n\n\t * 1.03 License \n\n\t * 1.04 Contributers \n\n\t * 1.05 Tests \n\n\t* 1.06 Questions \n\n\ ${q4} \n\n\##Profile Image${profileImage} \n\n\## ${website} \n\n\## Email me at: ${email}`
 
         
         fs.writeFile("readme2.md", markdown, function(err){});
