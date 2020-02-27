@@ -20,8 +20,13 @@
 
  this time 
 
-##Profile Imagehttps://avatars0.githubusercontent.com/u/24739461?v=4 
+##Profile Image[![N|Solid]https://avatars0.githubusercontent.com/u/24739461?v=4])]
 
 ## www.kyledove.com 
 
 ## Email me at: kyle.dove@epdoffice.com
+
+https://img.shields.io/badge/LOCATION-Dallas,TX-
+
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://kyledove.com)

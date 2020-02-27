@@ -85,17 +85,13 @@ inquirer
         let email = data2.data.email
         let profileImage = data2.data.avatar_url
         let website = data2.data.blog
-        let followme = data2.data.followers_url
-        let orgpage = data2.data.organizations_url
+        var badge = badge1 
 
-        const markdown = `## Description\n\n##${q2}\n\n ##${q3} \n\n\ ## Author ${name} \n\n##TABLE OF CONTENTS\n\n\t * 1.01 Instalation \n\n\t * 1.02 Usage \n\n\t * 1.03 License \n\n\t * 1.04 Contributers \n\n\t * 1.05 Tests \n\n\t* 1.06 Questions \n\n\ ##Installation ${q4} !{?style=for-the-badge&logo=appveyor} \n\n\ ## Usage ${q5} \n\n ## License ${q6} \n\n ## Contributing ${q7} \n\n ## Tests ${q8} \n\n ## Questions ${q9} \n\n ## ![Profile Image](${profileImage}) \n\n\ ## ${website} \n\n\ ## Email me at: ${email} \n\n ## Follow for updates ${followme} \n\n ## Orgnization page ${orgpage}`
+        const markdown = `## Description\n\n##${q2}\n\n##${q3}\n\n\##Author${name}\n\n##TABLE OF CONTENTS\n\n\t * 1.01 Instalation \n\n\t * 1.02 Usage \n\n\t * 1.03 License \n\n\t * 1.04 Contributers \n\n\t * 1.05 Tests \n\n\t* 1.06 Questions \n\n\ ##Installation ${q4} !{?style=for-the-badge&logo=appveyor} \n\n\ ## Usage ${q5} \n\n ## License ${q6} \n\n ## Contributing ${q7} \n\n ## Tests ${q8} \n\n ## Questions ${q9} \n\n ## ![Profile Image](${profileImage}) \n\n\ ## ${website} \n\n\ ## Email me at: ${email}\n [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://kyledove.com)`
 
         
         fs.writeFile("readme2.md", markdown, function(err){});
-        // * The generated README includes a bio image from the user's GitHub profile.
-        // * The generated README includes the user's email.
-        // * The generated README includes the following sections: 
-        // * The generated README includes 1 badge that's specific to the repository.
+       
         
     
     })
