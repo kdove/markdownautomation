@@ -85,9 +85,31 @@ inquirer
         let email = data2.data.email
         let profileImage = data2.data.avatar_url
         let website = data2.data.blog
-        var badge = badge1 
+        
+        
 
-        const markdown = `## Description\n\n##${q2}\n\n##${q3}\n\n\##Author${name}\n\n##TABLE OF CONTENTS\n\n\t * 1.01 Instalation \n\n\t * 1.02 Usage \n\n\t * 1.03 License \n\n\t * 1.04 Contributers \n\n\t * 1.05 Tests \n\n\t* 1.06 Questions \n\n\ ##Installation ${q4} !{?style=for-the-badge&logo=appveyor} \n\n\ ## Usage ${q5} \n\n ## License ${q6} \n\n ## Contributing ${q7} \n\n ## Tests ${q8} \n\n ## Questions ${q9} \n\n ## ![Profile Image](${profileImage}) \n\n\ ## ${website} \n\n\ ## Email me at: ${email}\n [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://kyledove.com)`
+        const markdown = `## Project Title
+            *${q3}
+        ## Description 
+            *${q2}
+        ## TABLE OF CONTENTS
+            * 1.01 Instalation
+            * 1.02 Usage
+            * 1.03 License
+            * 1.04 Contributers
+            * 1.05 Tests
+            * 1.06 Questions
+        ## Installation${q4}
+        ## "[![Generic badge](https://img.shields.io/badge/KYLEDOVE" + ${website} + "-<COLOR>.svg)](https://shields.io/)]"
+        ## Usage${q5}
+        ## License${q6}
+        ## Contributing${q7}
+        ## Tests${q8}
+        ## Questions ${q9}
+        ## ![Profile Image](${profileImage})
+        ## ${website}
+        ## Email me at:${email}
+        ## [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://kyledove.com)`
 
         
         fs.writeFile("readme2.md", markdown, function(err){});

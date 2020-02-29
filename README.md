@@ -53,20 +53,20 @@ When preparing a report for stakeholders, it is important to have up-to-date inf
 <!-- Spec requirement; 'initialize repository and create a README.MD with a unique name' 
 Completed per Spec Requirement on 02/23/2020-->
 
-* The generated README includes a bio image from the user's GitHub profile.
+* The generated README includes a bio image from the user's GitHub profile.  [COMPLETE]
 
-* The generated README includes the user's email.
+* The generated README includes the user's email. [COMPLETE]
 
 * The generated README includes the following sections: 
 
-* The generated README includes 1 badge that's specific to the repository.
+* The generated README includes 1 badge that's specific to the repository. [COMPLETE]
 
 ```
 GIVEN the developer has a GitHub profile and a repository
 
 WHEN prompted for the developer's GitHub username and repo specific information
 
-THEN a README for the repo is generated
+* THEN a README for the repo is generated. [COMPLETED]
 ```
 - - -
 
@@ -74,30 +74,30 @@ THEN a README for the repo is generated
 
 One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important:
 
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
+* Your commit history allows you to revert your code base in the event that you need to return to a previous state. [COMPLETED]
 
 Follow these guidelines for committing:
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits. [COMPLETED]
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history. [COMPLETED]
 <!-- Spec Requirement; please see deliverable referenced in the following commits "master b0ef752",  -->
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+* Don't commit half-done work, for the sake of your collaborators (and your future self!). [COMPLETED]
 <!-- Spec requirement; 'Don't commit half-done work, for the sake of your collaborators (and your future self!)'.
 All commits are tested and functional prior to commiting -->
-* Test your application before you commit to ensure functionality at every step in the development process.
+* Test your application before you commit to ensure functionality at every step in the development process. [COMPLETED]
 
-We would like you to have more than 200 commits by graduation, so commit early and often!
+We would like you to have more than 200 commits by graduation, so commit early and often! [WILL GET TO THIS BEFORE THE CLASS IS OVER]
 
 ## Submission on BCS
 
 You are required to submit the following:
 
-* An animated GIF demonstrating the app functionality
+* An animated GIF demonstrating the app functionality [THIS IS A SCREEN RECODING DEMONSTRATING THE WORKING APP]
 
-* A generated PDF of your GitHub profile
+* A generated PDF of your GitHub profile [OKAY I WILL SUBMIT THIS]
 
-* The URL of the GitHub repository
+* The URL of the GitHub repository [COMPLETED]
 
 
